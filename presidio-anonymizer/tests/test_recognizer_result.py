@@ -288,7 +288,34 @@ from unittest import mock
 @mock.patch.object(RecognizerResult, "logger")
 def test_logger(mock_logger):
     # replace the following line of `pass` with your test implementation
-    pass
+    import unittest.mock as mock
+from presidio_anonymizer.entities.engine.recognizer_result import RecognizerResult
+
+@mock.patch.object(RecognizerResult, "logger")
+def test_logger(mock_logger):
+    # Try importing helper; if not present, define a minimal fallback
+    try:
+        from tests.utils import create_recognizer_result
+    except Exception:
+        def create_recognizer_result(entity_type, score, start, end):
+            return RecognizerResult(entity_type=entity_type, start=start, end=end, score=score)
+
+    entity = "PERSON"
+    score = 0.9
+    start = 1
+    end = 5
+
+    _ = create_recognizer_result(entity, score, start, end)
+
+    mock_logger.info.assert_called()
+    msg = mock_logger.info.call_args[0][0]
+    assert f"entity_type='{entity}'" in msg
+    assert f"start={start}" in msg
+    assert f"end={end}" in msg
+    assert f"score={score:.2f}" in msg
+
+
+
 
 def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
     data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
