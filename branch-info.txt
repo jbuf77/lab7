@@ -1,5 +1,14 @@
 Branches in this repo (with details):
 
+- dependabot/docker/presidio-anonymizer/python-3.14-windowsservercore
+  SHA: db5ea75fe3e49104289dd3ef89b37c88f350cdd8
+  Commits: 7
+  Recent commits:
+    db5ea75 | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-01T18:19:50Z | Bump python in /presidio-anonymizer
+    b55e4bd | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T18:29:46Z | Auto-update branch-info.txt
+    3e39a9b | Author: Jason Buford <232607388+jbuf77@users.noreply.github.com> | Committer: Jason Buford <232607388+jbuf77@users.noreply.github.com> | Date: 2025-10-07T18:29:34Z | Merge lab7 into main
+    3d4355e | Author: Jason Buford <232607388+jbuf77@users.noreply.github.com> | Committer: Jason Buford <232607388+jbuf77@users.noreply.github.com> | Date: 2025-10-07T18:28:01Z | lab7: complete tasks 1–5 (logger tests, encrypt coverage 100%, conflict debug check)
+    7f9ea89 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T17:36:08Z | Auto-update branch-info.txt
 - dependabot/github_actions/actions/checkout-5
   SHA: 539786d82365ea7c7162ee1fb0086f8a40282ee3
   Commits: 3
@@ -16,11 +25,11 @@ Branches in this repo (with details):
     faff635 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T17:35:27Z | Auto-update branch-info.txt
     5b05595 | Author: Jason Buford <232607388+jbuf77@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-07T13:35:16-04:00 | Initial commit
 - main
-  SHA: 3e39a9b2c7e2f1806c6e525df06797d6cd02283a
-  Commits: 5
+  SHA: b55e4bd2ae97fcf3ed2730498adfd24ffb83eef6
+  Commits: 6
   Recent commits:
+    b55e4bd | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T18:29:46Z | Auto-update branch-info.txt
     3e39a9b | Author: Jason Buford <232607388+jbuf77@users.noreply.github.com> | Committer: Jason Buford <232607388+jbuf77@users.noreply.github.com> | Date: 2025-10-07T18:29:34Z | Merge lab7 into main
     3d4355e | Author: Jason Buford <232607388+jbuf77@users.noreply.github.com> | Committer: Jason Buford <232607388+jbuf77@users.noreply.github.com> | Date: 2025-10-07T18:28:01Z | lab7: complete tasks 1–5 (logger tests, encrypt coverage 100%, conflict debug check)
     7f9ea89 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T17:36:08Z | Auto-update branch-info.txt
     faff635 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T17:35:27Z | Auto-update branch-info.txt
-    5b05595 | Author: Jason Buford <232607388+jbuf77@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-07T13:35:16-04:00 | Initial commit
